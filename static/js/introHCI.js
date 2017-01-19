@@ -14,7 +14,7 @@ function projectClick(e) { 
     $(this).css("background-color", "#7fff00");
 
     var projectTitle = $(this).find("p").text();
-    var jumbotronHeader = $("#jumbotron h1");
+    var jumbotronHeader = $(".jumbotron h1");
     jumbotronHeader.text(projectTitle);
 }
 
