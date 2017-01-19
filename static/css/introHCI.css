@@ -32,3 +32,14 @@ body {
      position: absolute;
      z-index: -1;	
 }
+
+p {
+  font-variant: small-caps;
+}
+
+#project1 {
+  margin-left: 28px;
+  background-color: #deebf8;
+  padding: 28px;
+  width: 530px;
+}
